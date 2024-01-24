@@ -1,0 +1,36 @@
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards-container{
+    width: 100vw;
+    padding: 20 px;
+    margin: 0;
+    flex-direction: column;
+    overflow: auto;
+    
+}
+
+.card{
+    background-color: #C7B7A3;
+    flex-direction: column;
+    min-width: 150px;
+    border-radius: 20px;
+    
+}
+
+.card-name{
+    font-size: 1.5rem;
+
+}
+
+.card-station{
+    font-size: 1.2rem;
+
+}
+
+p{
+    color:black;
+}
